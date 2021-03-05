@@ -44,7 +44,7 @@ def dizaine(s_number):
     return number
 
 def convert_literal_to_int(s_number):
-    v_number = normalize_number(n)
+    v_number = normalize_number(s_number)
     nombre = 0
     if len(v_number) == 2: ## centaine disponible: pour les nombres < 1000
         nombre = centaine(v_number[1].strip(" "))
